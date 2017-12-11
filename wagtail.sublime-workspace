@@ -1,0 +1,340 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"perro",
+				"perroCreate"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"method",
+				"method_decorator"
+			],
+			[
+				"usuario",
+				"usuario"
+			],
+			[
+				"P",
+				"POST"
+			],
+			[
+				"User",
+				"UserAdmin"
+			],
+			[
+				"Use",
+				"UserAdmin"
+			],
+			[
+				"Usuario",
+				"UsuarioInline"
+			],
+			[
+				"ra",
+				"razaDetail"
+			],
+			[
+				"pro",
+				"propiedadeDetail"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "wagt/wagt/settings/base.py",
+			"settings":
+			{
+				"buffer_size": 4579,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/juanky/Wagtail/wagt",
+		"/home/juanky/Wagtail/wagt/blog",
+		"/home/juanky/Wagtail/wagt/blog/templates",
+		"/home/juanky/Wagtail/wagt/home",
+		"/home/juanky/Wagtail/wagt/home/templates",
+		"/home/juanky/Wagtail/wagt/home/templates/home",
+		"/home/juanky/Wagtail/wagt/wagt",
+		"/home/juanky/Wagtail/wagt/wagt/settings",
+		"/home/juanky/Wagtail/wagt/wagt/static"
+	],
+	"file_history":
+	[
+		"/home/juanky/Wagtail/wagt/wagt/settings/base.py",
+		"/home/juanky/Wagtail/wagt/blog/models.py",
+		"/home/juanky/Wagtail/wagt/blog/templates/blog/blog_index_page.html",
+		"/home/juanky/Wagtail/wagt/blog/templates/blog/blog_page.html",
+		"/home/juanky/Wagtail/wagt/wagt/urls.py",
+		"/home/juanky/Wagtail/wagt/blog/templates/blog/blog_tag_index_page.html",
+		"/home/juanky/Wagtail/wagt/blog/templates/blog/login.html",
+		"/home/juanky/Wagtail/wagt/blog/views.py",
+		"/home/juanky/Wagtail/wagt/blog/templates/login.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/views.py",
+		"/home/juanky/Wagtail/wagt/home/models.py",
+		"/home/juanky/Wagtail/wagt/home/templates/home/home_page.html",
+		"/home/juanky/Wagtail/wagt/blog/templates/blog_index_page.html",
+		"/home/juanky/Wagtail/prueba/home/models.py",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/user_form.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/login.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/inicio.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/perro_detail.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/perro_form.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/models.py",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/perro_list.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/raza_list.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/urls.py",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/raza_detail.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/doghouse/urls.py",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/forms.py",
+		"/media/juanky/7204-83B8/IAW_Apps/FlatTask/templates/FlatTask/inquilino_list.html",
+		"/media/juanky/7204-83B8/IAW_Apps/FlatTask/urls.py",
+		"/media/juanky/7204-83B8/IAW_Apps/FlatTask/templates/auth/user_form.html",
+		"/media/juanky/7204-83B8/IAW_Apps/FlatTask/templates/FlatTask/inquilino_form.html",
+		"/media/juanky/7204-83B8/IAW_Apps/FlatTask/templates/FlatTask/user_form.html",
+		"/media/juanky/7204-83B8/IAW_Apps/FlatTask/templates/index.html",
+		"/media/juanky/7204-83B8/IAW_Apps/FlatTask/templates/login.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/admin.py",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/propiedade_list.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/login.html",
+		"/home/juanky/Descargas/jacinto/login.html",
+		"/home/juanky/Descargas/jacinto/index.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/Sesion.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/usuario_form.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/usuario_list.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/usuario_list1.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/usuario_detail1.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/propiedade_list1.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/raza_list1.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/perro_list1.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/raza_confirm_delete.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/propiedade_confirm_delete.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/usuario_confirm_delete.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/perro_confirm_delete.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/raza_form.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/propiedade_form.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/doghouse/settings.py",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/propiedade_detail.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/usuario_detail.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/dog/detallep_list.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/listadoraza.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/listadousuario.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/listadoperro.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/listadopropiedade.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/perroregistro.html",
+		"/home/juanky/Proyectos Django/pazyamoryelpluspalsalon/views.py",
+		"/home/juanky/Proyectos Django/pazyamoryelpluspalsalon/urls.py",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/perro.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/templates/usuario.html",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/static/dog/style3.css",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/static/dog/style2.css",
+		"/home/juanky/Proyectos Django/Proyecto/doghouse/dog/static/dog/style1.css",
+		"/media/juanky/EAE08D32E08D0653/ASIR_2016_2017/DJANGO/SE2/ESQUEMA/esque/views.py",
+		"/media/juanky/EAE08D32E08D0653/ASIR_2016_2017/DJANGO/SE2/ESQUEMA/ESQUEMA/urls.py",
+		"/media/juanky/EAE08D32E08D0653/ASIR_2016_2017/DJANGO/SE2/ESQUEMA/esque/forms.py",
+		"/home/juanky/Proyectos Django/doghouse/doghouse/dog/admin.py",
+		"/home/juanky/Proyectos Django/doghouse/doghouse/dog/models.py",
+		"/home/juanky/Proyectos Django/doghouse/doghouse/doghouse/settings.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"correcto",
+			"Perro",
+			")\n",
+			"perro",
+			">",
+			"perro",
+			"\n<",
+			"')\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"usuario",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "wagt/wagt/settings/base.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2700,
+								2700
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1458.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wagtail.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
