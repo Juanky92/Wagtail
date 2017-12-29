@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 
 from __future__ import absolute_import, unicode_literals
 
+from django_auth_ldap.config import LDAPSearch, PosixGroupType
+import ldap
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 
@@ -54,6 +56,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -142,28 +145,21 @@ BASE_URL = 'https://example.com'
 
 #WAGTAIL_FRONTEND_LOGIN_TEMPLATE  =  'blog/login.html'
 
-import ldap
-from django_auth_ldap.config import LDAPSearch, PosixGroupType
+
 AUTHENTICATION_BACKENDS = (
     'django_auth_ldap.backend.LDAPBackend',
     'django.contrib.auth.backends.ModelBackend',
 )
 AUTH_LDAP_SERVER_URI = "ldap://172.17.0.2"
-AUTH_LDAP_BIND_DN = "cn=admin"
+AUTH_LDAP_BIND_DN = "cn=admin,dc=example,dc=org"
 AUTH_LDAP_BIND_PASSWORD = "admin"
-AUTH_LDAP_USER_SEARCH = LDAPSearch("ou=People,dc=example,dc=com",
+AUTH_LDAP_USER_SEARCH = LDAPSearch("ou=usuarios,dc=example,dc=org",
     ldap.SCOPE_SUBTREE, "(uid=%(user)s)")
-AUTH_LDAP_GROUP_SEARCH = LDAPSearch("ou=Groups,dc=example,dc=com",
+AUTH_LDAP_GROUP_SEARCH = LDAPSearch("ou=grupos,dc=example,dc=org",
     ldap.SCOPE_SUBTREE, "(objectClass=PosixGroup)"
 )
 AUTH_LDAP_GROUP_TYPE = PosixGroupType(name_attr="cn")
-AUTH_LDAP_USER_FLAGS_BY_GROUP = {
-    "is_active": "uid=tmorris,ou=People,dc=example,dc=com",
-    "is_staff": "uid=tmorris,ou=People,dc=example,dc=com",
-    "is_superuser": "uid=tmorris,ou=People,dc=example,dc=com"
-}
+
 AUTH_LDAP_FIND_GROUP_PERMS = True
 AUTH_LDAP_USER_ATTR_MAP = {
-    "first_name": "givenName",
-    "last_name": "sn"
 } 

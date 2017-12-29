@@ -51,7 +51,7 @@
 			"file": "wagt/wagt/settings/base.py",
 			"settings":
 			{
-				"buffer_size": 4579,
+				"buffer_size": 4332,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -178,7 +178,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -228,15 +228,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4579,
+						"buffer_size": 4332,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2700,
-								2700
+								3353,
+								3354
 							]
 						],
 						"settings":
@@ -246,7 +246,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1458.0,
+						"translation.y": 2091.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -257,7 +257,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -294,7 +294,7 @@
 	"project": "wagtail.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
