@@ -1,5 +1,5 @@
 {% load static wagtailuserbar %}
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -20,7 +20,8 @@
         </title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+       <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+       <link href="navbar-top.css" rel="stylesheet">
         {# Global stylesheets #}
         <link rel="stylesheet" type="text/css" href="{% static 'css/wagt.css' %}">
 
@@ -30,6 +31,7 @@
     </head>
 
     <body class="{% block body_class %}{% endblock %}">
+
         {% wagtailuserbar %}
 
         {% block content %}{% endblock %}
@@ -42,3 +44,5 @@
         {% endblock %}
     </body>
 </html>
+   <!--  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+      <div class="collapse navbar-collapse" id="navbarCollapse"> -->

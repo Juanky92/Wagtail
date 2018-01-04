@@ -18,12 +18,38 @@ class BlogPageTag(TaggedItemBase):
 
 class BlogIndexPage(Page):
     intro = RichTextField(blank=True)
+    def main_image(self):
+        gallerys_item = self.gallerys_images.first()
+        if gallerys_item:
+            return gallerys_item.image
+        else:
+            return None
 
+    search_fields = Page.search_fields + [
+        index.SearchField('intro'),
+    ]
+
+    content_panels = Page.content_panels + [
+        InlinePanel('gallerys_images', label="Gallerys images"),
+    ]
     def get_context(self, request):
         context = super(BlogIndexPage, self).get_context(request)
         blogpages = self.get_children().live().order_by('-first_published_at')
         context['blogpages'] = blogpages
         return context
+
+class BlogPageGalleryImage1(Orderable):
+    page = ParentalKey(BlogIndexPage, related_name='gallerys_images')
+    image = models.ForeignKey(
+        'wagtailimages.Image', on_delete=models.CASCADE, related_name='+'
+    )
+    caption = models.CharField(blank=True, max_length=250)
+
+    panels = [
+        ImageChooserPanel('image'),
+        FieldPanel('caption'),
+    ]
+
 
 class BlogPage(Page):
     date = models.DateField("Post date")

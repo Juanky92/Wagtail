@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(PROJECT_DIR)
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
-ALLOWED_HOSTS=[]
+ALLOWED_HOSTS=['62.117.140.187']
 # Application definition
 
 INSTALLED_APPS = [
@@ -143,7 +143,7 @@ WAGTAIL_SITE_NAME = "wagt"
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
 BASE_URL = 'https://example.com'
 
-#WAGTAIL_FRONTEND_LOGIN_TEMPLATE  =  'blog/login.html'
+WAGTAIL_FRONTEND_LOGIN_TEMPLATE  =  'blog/login.html'
 
 
 AUTHENTICATION_BACKENDS = (
